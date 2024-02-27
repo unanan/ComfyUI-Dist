@@ -15,6 +15,7 @@ BETA:
 | 3 | 准备一个最低依赖的ComfyUI的版本（源码、docker镜像）能够在NAS这种最简陋的linux系统上跑起来，仅具备上传接口的功能 |
 | 4 | 重构ComfyUI_NetDist的节点的逻辑，使它更直观更好用 |
 | 5 | 写一个转换的脚本，能够从普通工作流转换为分布式的工作流 |
+
 P.S.
 1. 我不会js，跟ComfyUI前端界面有关的都写不了，得排后面
 2. 欢迎在issues里提需求，Be free to open an issue to propose requirements.
