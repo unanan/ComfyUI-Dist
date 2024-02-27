@@ -4,7 +4,7 @@ For distributed processing ComfyUI workflows within a local area network
 ---
 BETA:
 - 因为搞不起大显卡，同时局域网内有多台闲置的小显存的显卡机器，因此想到要写个这个custom_nodes模块
-- 本repo大量参考了https://github.com/city96/ComfyUI_NetDist的源码，但是这个repo我感觉用起来还是不够友好，以及有些必要的功能没有，在他的代码基础上改有点不够效率，反正python重写都是很快的
+- 本repo大量参考了 https://github.com/city96/ComfyUI_NetDist 的源码，但是这个repo我感觉用起来还是不够友好，以及有些必要的功能没有，在他的代码基础上改有点不够效率，反正python重写都是很快的
 - 先用中文记下来，开发完了后会补上英文的README
 - 我个人对这个模块的功能计划：
 
