@@ -20,3 +20,9 @@ P.S.
 1. 我不会js，跟ComfyUI前端界面有关的都写不了，得排后面
 2. 欢迎在issues里提需求，Be free to open an issue to propose requirements.
 3. 欢迎点个watch或者star什么的push我写
+
+
+---
+一些错误记录：
+1. 报错：from cryptography.hazmat.bindings._openssl import ffi, lib ImportError: DLL load failed: 找不到指定的程序。
+解决：重下paramiko：pip install paramiko --force-reinstall

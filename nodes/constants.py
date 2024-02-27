@@ -1,0 +1,25 @@
+import os
+
+
+if "DIST_STORAGE_MACHINE_HOST" in os.environ:
+    DIST_STORAGE_MACHINE_HOST = os.environ["DIST_STORAGE_MACHINE_HOST"]
+else:
+    print("Need to assign global param: DIST_STORAGE_MACHINE_HOST")
+    exit()
+
+if "DIST_STORAGE_MACHINE_COMFYUI_ROOT" in os.environ:
+    DIST_STORAGE_MACHINE_COMFYUI_ROOT = os.environ["DIST_STORAGE_MACHINE_COMFYUI_ROOT"]
+else:
+    print("Need to assign global param: DIST_STORAGE_MACHINE_COMFYUI_ROOT")
+    exit()
+
+if "DIST_STORAGE_MACHINE_USER" in os.environ:
+    DIST_STORAGE_MACHINE_USER = os.environ["DIST_STORAGE_MACHINE_USER"]
+else:
+    DIST_STORAGE_MACHINE_USER = "comfyui"
+
+
+if "DIST_STORAGE_MACHINE_PRIVATE_KEY_FILE" in os.environ:
+    DIST_STORAGE_MACHINE_PRIVATE_KEY_FILE = os.environ["DIST_STORAGE_MACHINE_PRIVATE_KEY_FILE"]
+else:
+    DIST_STORAGE_MACHINE_PRIVATE_KEY_FILE = "~/.ssh/id_rsa"
