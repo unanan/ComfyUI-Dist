@@ -1,6 +1,16 @@
 # ComfyUI-Dist
 For distributed processing ComfyUI workflows within a local area network
 
+** Not Finished Yet **
+
+#### TODOs
+- [x] LoadImage (24/02/27)
+- [] LoadWorkflow
+- [] LoadCheckpoint
+- [] ComfyUI docker image (minimal docker image, only support upload and storage)
+- [] Tool for conversion (from normal workflow to distributed workflow)
+
+
 ---
 BETA:
 - 因为搞不起大显卡，同时局域网内有多台闲置的小显存的显卡机器，因此想到要写个这个custom_nodes模块
