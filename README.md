@@ -1,7 +1,7 @@
 # ComfyUI-Dist
 For distributed processing ComfyUI workflows within a local area network
 
-** Not Finished Yet **
+**Not Finished Yet**
 
 #### TODOs
 - [x] LoadImage (24/02/27)
