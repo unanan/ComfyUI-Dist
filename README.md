@@ -5,10 +5,10 @@ For distributed processing ComfyUI workflows within a local area network
 
 #### TODOs
 - [x] LoadImage (24/02/27)
-- [] LoadWorkflow
-- [] LoadCheckpoint
-- [] ComfyUI docker image (minimal docker image, only support upload and storage)
-- [] Tool for conversion (from normal workflow to distributed workflow)
+- [ ] LoadWorkflow
+- [ ] LoadCheckpoint
+- [x] ComfyUI docker image (minimal docker image, only support upload and storage) (24/02/28)
+- [ ] Tool for conversion (from normal workflow to distributed workflow)
 
 
 ---
